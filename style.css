@@ -118,6 +118,7 @@ h2{
     /*margin: 6em;*/
     /*margin-bottom: 16px;*/
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
@@ -137,10 +138,16 @@ h2{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 25%;
-    padding: 20px;
-    
-    
+    /*width: 25%;*/
+    padding: 20px 40px;
+    height: 20vh;
+    border: 1px solid #00000054;
+    margin: 5px;
+ 
+}
+.day-hover:hover {
+    transition: 1s;
+    background-color: #00000054;
 }
 .clouds{
 
