@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(to right,#367db9, #699cca);
+    font-family: 'Roboto', sans-serif;
+
+}
+input{
+    /*border-radius: 5px;*/
+    padding: 5px; 
+    display: inline-block;
+    background-color: #3d6e9f;
+    color: white;
+    border: none;
+    margin: 0px;
+    border-top-left-radius:50px; 
+    border-bottom-left-radius:50px; 
+    outline: none;
+    
+    
+    
+
+}
+h1{
+    letter-spacing: 2px;
+}
+::placeholder{
+    color: white;
+}
+
+button{
+    /*border-radius: 5px;*/
+    padding: 5px;
+    width: 40px;   
+    background-color: #3d6e9f;
+    border: none;
+    margin: 0px;
+        margin: 0px;
+    border-top-right-radius:50px; 
+    border-bottom-right-radius:50px; 
+    outline: none;
+
+    
+    
+}
+button >i{
+    font-size: 23px;
+    color: white;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #33669a;
+}
+#search-bar{
+    /*padding: 1em;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: flex-end;*/
+    /*margin-left: autos*/
+}
+.form{
+     padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+/* h3{
+    display: inline-block;
+    position: relative;
+top: -10px;
+left: 10px;
+} */
+.forecast-name{
+    color: azure;
+    margin: 1em;
+}
+.city-name{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    /* text-align: center; */
+}
+.temp{
+    font-size: 50px;
+}
+.digree{
+    display: flex;
+    justify-content: center;
+    color: azure;
+
+}
+.temperaturess {
+    display: flex;
+    justify-content:space-around ;  
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+.all{
+    display: flex;
+    justify-content:space-around;
+    margin: 1em;
+    color: azure;
+    flex-wrap: wrap;
+    
+}
+h2{
+    color: azure;
+    margin: 1em;
+    
+
+}
+.days{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    /*margin: 6em;*/
+    /*margin-bottom: 16px;*/
+    flex-wrap: wrap;
+}
+
+
+.sun{
+    color: yellow !important;
+}
+.all-temp{
+
+    color: aliceblue;
+    display:flex;
+    justify-content: space-between;
+    margin: 6em;
+    margin-top: 1em;
+
+}
+.monday, .tuesday, .wednesday, .thursday, .friday{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    
+    
+}
+.clouds{
+
+    padding-top: 1em;
+}
+.tempe{
+    padding-top: 1em;
+}
+
+.current{
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+}

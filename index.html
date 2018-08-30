@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scipt.js"></script>
+    <title>weather app</title>
+</head>
+<body>
+
+   
+        
+ 
+
+    <article id="head">
+
+            <h3 class="forecast-name">Today</h3>
+        
+    <div id="search-bar">
+            <form class="form" onsubmit="return mySubmitFunction()">
+                <input type="text" placeholder="search">
+                <button onclick="getweather()"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </article>
+    <div class="city-name">
+
+        <h1>Search your City</h1>
+
+    </div>
+
+    <div class="digree">
+    
+            <span class="temp"><span></span>°C</span>
+        
+    </div>
+
+    <div class="all">
+
+    <article class="temperaturess">
+
+        <span class="feel-like current">Feel like <span class="temperature"></span>°</span>
+        <span class="wind-name current">Wind <span class="wind"></span><i class="fab fa-affiliatetheme"></i></span>  
+        <span class="visibility- current">visibility <span class="visi"></span></span>
+        <span class="barometer current">pressure <span class="pres"></span></span> 
+        <span class="humidity current">Humidity <span class="humi"></span></span>
+        <span class="dew-point current">speed <span class="speed"></span></span>
+
+
+    </article>
+</div>
+
+
+
+
+    <h2>Forecast</h2>
+
+
+<article class="days">
+
+    <span class="monday"><span class="date-1">Monday</span> 
+        <span class="clouds"><i class="fas fa-cloud"></i></span>
+        <span class="temp-mon tempe"></span>
+        </span>   
+    <SPAN class="tuesday"> <span class="date-2">Tuesday</span>
+        <span class="umbrella clouds"><i class="fas fa-umbrella"></i></span>
+        <span class="temp-tues tempe"></span>
+        </SPAN>
+    <SPAN class="wednesday"><span class="date-3">Wednesday</span>
+        <span class="sun clouds"><i class="far fa-sun"></i></span>
+        <span class="temp-wed tempe"></span>
+        </SPAN>
+    <span class="thursday"><span class="date-4">Thursday</span> 
+        <span class="clouds"><i class="fab fa-cloudversify"></i></span>
+        <span class="temp-thurs tempe"></span>
+        </span>
+    <span class="friday"><span class="date-5">Friday</span> 
+        <span class="clouds"><i class="fab fa-mixcloud"></i></span>
+        <span class="temp-fri tempe"></span>
+         <article class="all-temp">
+        </span>
+    
+
+</article>
+
+
+
+
+
+
+</body>
+</html>
