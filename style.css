@@ -15,6 +15,7 @@ input{
     border-top-left-radius:50px; 
     border-bottom-left-radius:50px; 
     outline: none;
+    cursor: pointer;
     
     
     
@@ -45,6 +46,7 @@ button{
 button >i{
     font-size: 23px;
     color: white;
+    cursor: pointer;
 }
 #head{
     display: flex;
@@ -91,7 +93,7 @@ left: 10px;
 .temperaturess {
     display: flex;
     justify-content:space-around ;  
-    width: 100%;
+    width: 50%;
     flex-wrap: wrap;
     padding: 10px;
     
@@ -103,6 +105,7 @@ left: 10px;
     margin: 1em;
     color: azure;
     flex-wrap: wrap;
+    cursor: context-menu;
     
 }
 h2{
@@ -141,13 +144,16 @@ h2{
     /*width: 25%;*/
     padding: 20px 40px;
     height: 20vh;
-    border: 1px solid #00000054;
+    /* border: 1px solid #00000054; */
     margin: 5px;
  
 }
 .day-hover:hover {
     transition: 1s;
     background-color: #00000054;
+    border-radius: 10px;
+
+    
 }
 .clouds{
 
@@ -160,5 +166,17 @@ h2{
 .current{
     text-align: center;
     padding: 20px;
+    padding-right:0px !important;
     width: 25%;
+    
+}
+.date-1, .date-2, .date-3, .date-4, .date-5{
+
+    font-weight: bold;
+    
+
+}
+em{
+    margin-right: 5px;
+    padding-bottom: 10px;
 }
