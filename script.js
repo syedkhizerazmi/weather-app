@@ -1,5 +1,6 @@
 function getWeather(){
 	document.querySelector(".weather-info").style.display="block";
+	
 	const cityName = document.querySelector("input").value;
 
 	$.ajax({
