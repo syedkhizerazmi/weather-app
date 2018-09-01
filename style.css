@@ -180,3 +180,7 @@ em{
     margin-right: 5px;
     padding-bottom: 10px;
 }
+section{
+    width: 100%;
+    display: none;
+}
