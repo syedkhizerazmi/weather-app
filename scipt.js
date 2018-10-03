@@ -2,8 +2,6 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
     var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 function getweather(){
    let city = document.querySelector("input").value;
-   document.querySelector("section").style.display="block";
-   
 
 $.ajax({
     url:`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ca99713a21e5639ef89c88883d5231c6&units=metric`,
